@@ -13,3 +13,9 @@ git restore --staged <file_name>
 git commit -m <Message>
 #This command used to transfer the file from staged area to tracking area
 #Version 3 added
+#git commit will store with SHA1 hash code of 40 Char
+#To go back in your commit
+git reset <HashCode of previous Commit>
+git restore <file_name>
+#With these two commands you will go back in your file to previous state
+
