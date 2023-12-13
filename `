@@ -22,15 +22,4 @@ git restore <file_name>
 #With these two commands you will go back in your file to previous state
 git diff <file_name>
 #With this command we can found what changes are done in a file unlike git status
-git log -p -2
-#Last 2 Commits
-git log --stat
-#It display how insertion and deletions in each commit
-git log --pretty=oneline
-#It display commit in one line
-git log --since=2.weeks
-#It display last 2 weeks commits
-#Version for ammend
-git commit -amend
-#This command used to merge with before commit so one commit for immediate changes is enough
 
