@@ -20,4 +20,8 @@ git log
 git reset <HashCode of previous Commit>
 git restore <file_name>
 #With these two commands you will go back in your file to previous state
+git diff <file_name>
+#With this command we can found what changes are done in a file unlike git status
+git log -p -2
+#Last 2 Commits
 
